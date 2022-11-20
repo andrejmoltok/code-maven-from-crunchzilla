@@ -1,44 +1,42 @@
-#### Code Maven from Crunchzilla
+#### Code Maven a Crunchzilla-tól
 
-Code Maven from Crunchzilla is an interactive programming tutorial
-for kids that focuses on action. Code changes immediately yield
-visible results.
+Code Maven a Crunchzilla-tól egy interaktív programozási gyakorló
+gyerekeknek amely a cselekvésre összpontosít. Kód változtatások
+azonnal látható eredményeket produkálnak.
 
-Code Maven from Crunchzilla is publicly available to play for free
-at
+Code Maven a Crunchzilla-tól mindenki által elérhető a következő webcímen
 
 http://www.crunchzilla.com/
 
-Projects start with simple boxes and colors, rapidly progressing into
-exciting experiments with simple animation and fractals. Important
-programming concepts like variables, loops, conditionals, expressions,
-and functions are introduced by example.
+A projektek kezdetben egyszerű dobozokkal és színekkel indítanak, majd
+gyorsan haladva áttérnek érdekfeszítő kísérletekbe egyszerű animációkkal 
+és fraktálokkal. Fontos programozási fogalmakat, úgy mint változókat, ciklusokat,
+feltételeket, kifejezéseket és funkciókat mutatnak be a példák.
 
-Code Maven is a gentle and fun introduction to programming
-concepts. It is a first step in learning to program.
+Code Maven egy könnyed és szórakoztató bevezető a programozási fogalmakba. 
+Az első lépés a programozás elsajátításához.
 
-We decided to make a version of code for the tutorial itself available for
-others to modify, use, and translate.
+Úgy döntöttünk, hogy készítünk egy olyan változatot a gyakorlóhoz, amely
+elérhető másoknak a módosításhoz, használathoz és fordításhoz.
 
-If you want to create your own lessons or translate the existing
-lessons to a language other than English, the lesson content is
-entirely contained in codemaven-lessons.js in a large JSON
-file. Changing just that file will allow you to create your own lesson
-content. If you want to change or translate the help menus or title,
-edit the index.html file.
+Amennyiben szeretne saját leckéket készíteni vagy meglévő feladatokat
+lefordítani más nyelvre, azt a lecke tartalomjegyzékében megteheti. 
+Ez teljes egészében elérhető a codemaven-lessons.js JSON fájlban.
+Elég csak ezt a fájlt módosítani ahhoz, hogy saját lecke tartalmat
+adjon hozzá a meglévők mellé. Hogyha súgó menüket vagy címeket fordítana,
+elég az index.html fájlt módosítani.
 
-To deploy your modified code to your own webserver, just upload all
-the files to your favorite host. The code only contacts the server
-once at initialization to download all the lessons (intentionally,
-allowing people to play offline if they want to). You don't need any
-special configuration; just upload all the files like this was a web
-page.
+Ha telepíteni sszeretné saját, módosított kódját a saját webszerverére,
+csupán fel kell töltenie a fájlokat a kedvenc rendszergazdájára. A kód
+egyetlen egyszer kapcsolódik a szerverre inicializáláskor, hogy letöltse
+a leckéket (szándékosan, ezzel lehetővé teszi, hogy bárki offline használhassa).
+Nincs szükség semmilyen speciális beállításra; csak töltse fel a fájlok, mintha
+egy web oldal lenne.
 
-If you build anything using the code for Code Maven from
-Crunchzilla, it'd be nice to credit Crunchzilla.com for the original
-code, though you don't have to.  If you want to show off anything you
-build using this code, we'd love to hear from you
-(contact@crunchzilla.com).
+Hogyha készít valamit a Code Maven a Crunchzilla-tól kódjából,
+szeretnénk, ha megjelölné a Crunchzilla.com oldalunkat mint forrást, 
+de nem kötelező.   Ha szeretné bemutatni amit készített ezzel a kóddal,
+szeretnénk hallani felőle a következő e-mail címen (contact@crunchzilla.com).
 
 -----
 
