@@ -1,4 +1,4 @@
-#### Code Maven a Crunchzilla-tól
+# Code Maven a Crunchzilla-tól
 
 Code Maven a Crunchzilla-tól egy interaktív programozási gyakorló
 gyerekeknek amely a cselekvésre összpontosít. Kód változtatások
@@ -6,21 +6,21 @@ azonnal látható eredményeket produkálnak.
 
 Code Maven a Crunchzilla-tól mindenki által elérhető a következő webcímen
 
-http://www.crunchzilla.com/
+<http://www.crunchzilla.com/>
 
 A projektek kezdetben egyszerű dobozokkal és színekkel indítanak, majd
-gyorsan haladva áttérnek érdekfeszítő kísérletekbe egyszerű animációkkal 
+gyorsan haladva áttérnek érdekfeszítő kísérletekbe egyszerű animációkkal
 és fraktálokkal. Fontos programozási fogalmakat, úgy mint változókat, ciklusokat,
 feltételeket, kifejezéseket és funkciókat mutatnak be a példák.
 
-Code Maven egy könnyed és szórakoztató bevezető a programozási fogalmakba. 
+Code Maven egy könnyed és szórakoztató bevezető a programozási fogalmakba.
 Az első lépés a programozás elsajátításához.
 
 Úgy döntöttünk, hogy készítünk egy olyan változatot a gyakorlóhoz, amely
 elérhető másoknak a módosításhoz, használathoz és fordításhoz.
 
 Amennyiben szeretne saját leckéket készíteni vagy meglévő feladatokat
-lefordítani más nyelvre, azt a lecke tartalomjegyzékében megteheti. 
+lefordítani más nyelvre, azt a lecke tartalomjegyzékében megteheti.
 Ez teljes egészében elérhető a codemaven-lessons.js JSON fájlban.
 Elég csak ezt a fájlt módosítani ahhoz, hogy saját lecke tartalmat
 adjon hozzá a meglévők mellé. Hogyha súgó menüket vagy címeket fordítana,
@@ -34,7 +34,7 @@ Nincs szükség semmilyen speciális beállításra; csak töltse fel a fájlok,
 egy web oldal lenne.
 
 Hogyha készít valamit a Code Maven a Crunchzilla-tól kódjából,
-szeretnénk, ha megjelölné a Crunchzilla.com oldalunkat mint forrást, 
+szeretnénk, ha megjelölné a Crunchzilla.com oldalunkat mint forrást,
 de nem kötelező.   Ha szeretné bemutatni amit készített ezzel a kóddal,
 szeretnénk hallani felőle a következő e-mail címen (contact@crunchzilla.com).
 
