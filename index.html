@@ -71,9 +71,9 @@
 	  |
 	  <span class=info-link unselectable=on>GyIK</span>
 	  |
-	  <span class=info-link unselectable=on>Terms of Use</span>
+	  <span class=info-link unselectable=on>Felhasználási Feltételek</span>
 	  |
-	  <span class=info-link unselectable=on>Privacy</span>
+	  <span class=info-link unselectable=on>Titoktartás</span>
 	  |
 	  <span class=info-link unselectable=on>Kapcsolat</span>
 	  |
@@ -87,40 +87,40 @@
 	  Egyszerűen játszható. Kövesse az utasításokat és csinálja meg
 	  amit Code Maven mond.  Ha megakadna, csak lépje túl a fejezetet.
 	  Később is visszatérhet hozzá!  
-	  <br><br>Click on the Reset button if you really mess up your
-	  code and want to start over on a lesson. Click on the Back button 
-	  to go back to a previous lesson. You can jump to a specific lesson
-	  or back to the beginning using the "Lesson Sections" link.
+	  <br><br>Klikkelj a Visszaállít gombra, hogyha nagyon összekutyulod 
+	  a kódot és szeretnéd újrakezdeni a leckét. Klikkelj a Vissza gombra  
+	  hogy visszatérhess az előző leckéhez. Át tudsz ugrani egy bizonyos 
+	  leckéhez vagy teljesen az elejére a "Lecke Szekciók" hivatkozásra kattintva.
 	  <br><br>
-	  Code Maven saves what lesson you are on, so feel free to stop
-	  at any time and come back later.  As long as you come back on the
-	  same browser on the same machine, you'll get back to your lesson.
+	  Code Maven elmenti a jelenlegi leckédet, ezért bármikor félbehaghatod 
+	  és visszatérhetsz bérmikor.  Amíg ugyanazon a gépen és böngészőben 
+	  nyitod meg, vissza tudsz térni a jelenlegi leckédhez.
 	  <br><br>
-	  Have fun!
+	  Jó szórakozást!
 	  <div class="simplemodal-close simplemodal-closex">X</div>
 	</div>
 	<div id=lesson-sections style="display: none;">
-	  <h3>Jump to a Lesson Section</h3>
+	  <h3>Ugrás egy Lecke Szekcióra</h3>
 	  <ol id=lesson-sections-list>
 	  </ol>
 	  <div class="simplemodal-close simplemodal-closex">X</div>
 	</div>
 	<div id=faq style="display: none;">
-	  <h3>Frequently Asked Questions</h3>
-	  <b>What is the c in things like <code>c.save()</code>?</b>
+	  <h3>Gyakran Ismételt Kérdések</h3>
+	  <b>Mit jelent a c a kódokban, mint <code>c.save()</code>?</b>
 	  <br><br>
-	  <code>c</code> is a variable Code Maven creates for you that contains the Canvas' 2D context.
-	  The code that creates the variable <code>c</code>, which is hidden, looks like
+	  <code>c</code> egy változó, amit Code Maven készít, amely a Canvas 2D kontextusát 
+	  tartalmazza. A kód, amelyik a <code>c</code> változót készíti el, ami rejtett, így néz ki 
 	  <br><br>
 	  <code>var c = document.getElementById('pane').getContext('2d');</code>
 	  <br><br>
-	  <b>How can I save my code and use it outside of Code Maven?</b>
+	  <b>Hogyan tudom elmenteni a kódomat és Code Maven-en kívül is használni?</b>
 	  <br><br>
-	  Short answer: You can copy-and-paste your code and then load that code in
-	  an HTML file (either loading a separate Javascript file or inlining the
-	  Javascript in your HTML file).
+	  Röviden: Csupán kimásolni kell a kódot és belinkelni egy HTML fájlba
+	  (vagy egy különálló JS fájlba vagy a HTML fájlon belül a <code>script</code>
+	  tagbe).
 	  <br><br>
-	  Longer answer: A minimal HTML file that works would look like this:
+	  Hosszan: Egy működő, minimális HTML fájl így nézne ki:
 	  <br><br>
 	  <code>
 		&lt;html&gt;&lt;body&gt;
@@ -132,16 +132,16 @@
 		var c = document.getElementById(&#39;pane&#39;).getContext(&#39;2d&#39;);
 		<br>
 		<br>
-		// PASTE YOUR CODE HERE
+		// MÁSOLD IDE A KÓDOT
 		<br>
 		<br>
 		&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</code>
 	  <br><br>
-	  If you copy that into a file, then copy-and-paste your code into it, then
-	  save the file with a filename ending in .html, you should be able to load the
-	  file in any web browser.
+	  Hogyha bemásolod ezt egy fájlba, majd a kódodat is ebbe bele, utána 
+	  elmented a fájlt .html kiterjesztéssel, bármelyik böngészőben meg tudod 
+	  majd nyitni.
 	  <br><br>
-	  <b>Is there any other code that is hidden from me?</b>
+	  <b>Van még más kód is ami el van rejtve?</b>
 	  <br><br>
 	  There is also a bit of hidden code to try to stop animations when you
 	  change lessons and the code you write is instrumented to try to
@@ -214,7 +214,7 @@
 	  <div class="simplemodal-close simplemodal-closex">X</div>
 	</div>
 	<div id=terms-of-use style="display: none;">
-	  <h3>Terms of Use</h3>
+	  <h3>Felhasználási Feltételek</h3>
 	  Code Maven from Crunchzilla is a website provided by Geeky Ventures.
 	  In order to use the Site, you must accept the terms set forth below.
 	  If you are a minor, your parent or guardian must accept the terms and
@@ -247,7 +247,7 @@
 	  <div class="simplemodal-close simplemodal-closex">X</div>
 	</div>
 	<div id=privacy style="display: none;">
-	  <h3>Privacy Policy</h3> 
+	  <h3>Titoktartási Egyezmény</h3> 
 
 	  Code Maven is extremely protective of privacy.  Code Maven
 	  keeps almost no information about people who use the website.
@@ -279,7 +279,7 @@
 	  <div class="simplemodal-close simplemodal-closex">X</div>
 	</div>
 	<div id=contact style="display: none;">
-	  <h3>Contact</h3>
+	  <h3>Kapcsolat</h3>
 	  Code Maven can be reached at maven@crunchzilla.com
 	  <br><br>
 	  Code Maven would love to hear your suggestions for how she can

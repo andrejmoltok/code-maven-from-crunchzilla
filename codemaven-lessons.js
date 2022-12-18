@@ -18,9 +18,9 @@ var lessons =
 	[
 
 		// Draw box
-		{ message: "Hi, I'm Code Maven! (click on my words to see what's next)", 
+		{ message: "Szia, Code Maven vagyok! (klikkelj a szavakra, hogy lásd mi következik)", 
 		  code: "c.fillRect(20, 20, 50, 75);\n",
-		  lessonSection: "Getting Started",
+		  lessonSection: "Vágjunk Bele",
 		  tutorImage: 1,
 		  hiddenCode: "var c = document.getElementById('pane').getContext('2d');\nfunction rgba(r,g,b,a) {return 'rgba('+[r,g,b,a].join(',')+')';}\nfunction rgb(r,g,b,a) {return 'rgb('+[r,g,b].join(',')+')';}\n\n"
 		  // Hide the access to the canvas, which is ugly, giving instead c
@@ -28,63 +28,63 @@ var lessons =
 		  // a function.  Let that quietly succeed, not worth confusing them
 		  // on that.
 		},
-		{ message: "You're going to learn some programming! (click again)"
+		{ message: "Egy kis programozást fogsz tanulni (klikkelj megint)"
 		},
-		{ message: "Below me, on the left, is Javascript code, on the right, what it does."
+		{ message: "Alul, balra, a javascript kódot láthatod, jobbra pedig, amit csinál."
 		},
-		{ message: "You can use fillRect() to draw a box. See the number 50?  Can you change that to 150?", 
+		{ message: "Használhatod a fillRect() funkciót, hogy egy dobozt rajzolj. Látod az 50-es számot?  Kicserélnéd 150-re?", 
 		  code: "c.fillRect(20, 20, 50, 75);\n",
 		  youGotItCheck: "150",
 		},
-		{ message: "That made the box wider. What do you think the other numbers do? Try changing them.",
-		  lessonSection: "Parameters and Drawing",
+		{ message: "Ez szélesebbé varázsolta a dobozt. Mit gondolsz mit csinál a többi szám? Próbáld meg kicserélni őket.",
+		  lessonSection: "Paraméterek és Rajzolás",
 		},
-		{ message: "Did you figure it out?  The numbers are how far from the left side to draw the box, how far from the top, how wide to draw the box, and how tall. So, it's <span class=tutor-code>c.fillRect(<i>left, top, width, height</i>);</span>",
+		{ message: "Sikerült? A számok sorban azt jelentik, hogy milyen messze legyen balra, milyen messze legyen fentről, milyen szélesre rajzolja a dobozt és milyen magasra. Igy tehát <span class=tutor-code>c.fillRect(<i>bal, fent, szélesség, magasság</i>);</span>",
 		  tutorImage: 4,
 		},
-		{ message: "Try changing all the numbers!  Play with it!",
+		{ message: "Cseréld ki az összes számot! Játssz velük!",
 		  tutorImage: 5,
 		},
-		{ message: "Two boxes. Can you change the numbers to make them bigger?",
+		{ message: "Itt van két doboz. Meg tudnád változtatni a számokat, hogy nagyobbak legyenek a dobozok?",
 		  code: "c.fillRect(20, 20, 50, 75);\nc.fillRect(100, 100, 60, 80);\n",
 		  tutorImage: 3,
 		},
-		{ message: "Can you change the numbers to move them around?",
+		{ message: "Meg tudnád változtatni a számokat, hogy elmozdítsd a dobozokat?",
 		},
-		{ message: "How about something a little more challenging.  Can you change the numbers so that one box covers up the other?",
+		{ message: "Mit szólnál egy nagyobb kihíváshoz? Meg tudnád változtatni a számokat, hogy az egyik doboz lefedje a másikat?",
 		  tutorImage: 6,
 		},
 
 		// Variables
-		{ message: "Let's work with square boxes.  Square boxes have the same width and height.", 
+		{ message: "Dolgozzunk most kockaalakú dobozokkal.  Kockaalakú dobozoknak azonos a szélességük és magasságuk.", 
 		  code: "c.fillRect(30, 20, 80, 80);\n",
 		  tutorImage: 1,
 		},
-		{ message: "Hey, look, this does the same thing!", 
+		{ message: "Nézd csak, ez ugyanazt csinálja!", 
 		  code: "var size = 80;\nc.fillRect(30, 20, size, size);\n",
-		  lessonSection: "Variables",
+		  lessonSection: "Változók",
 		  tutorImage: 2,
 		},
-		{ message: "Why does that do the same thing?  Any ideas?",
+		{ message: "Miért csinálja ez ugyanazt? Van ötleted?",
 		  tutorImage: 4,
 		},
-		{ message: "var means variable. What we did is create a variable, called it <span class=tutor-code>size</span>, set it equal to 80, and now we can use <span class=tutor-code>size</span> where we would have used 80. Do you know why we might want that?",  
+		{ message: "<span class=tutor-code>var</span> azt jelenti, hogy változó. Annyi volt, hogy készítettünk egy változót, elneveztük <span class=tutor-code>size</span>-nak, egyenlővé tettük 80-nal, és most használhatjuk a <span class=tutor-code>size</span>-ot ott ahol egyébként 80 lenne. Tudod, hogy miért van erre szükség?",  
 		  code: "var size = 80;\nc.fillRect(30, 20, size, size);\n"
 		},
-		{ message: "What happens if you change 80 to 220?",
+		{ message: "Mi történik ha lecseréljük a 80-at 220-ra?",
 		  tutorImage: 1,
 		},
-		{ message: "And look!  Wider and taller box, both at the same time!"
+		{ message: "Nézd csak!  Szélesebb és magasabb doboz, egyszerre mindkettő!"
 		},
-		{ message: "What would you change to move the box around?"
+		{ message: "Mit tennél, hogy elmozdítsd a dobozt?"
 		},
-		{ message: "Can you make the box very small?"
+		{ message: "Letudnád kicsinyíteni a dobozt?"
 		},
-		{ message: "What happens if you make <span class=tutor-code>size</span> equal to 0? Or to something really big like 5000?"
+		{ message: "Mi történne ha a <span class=tutor-code>size</span>-ot átírnánk 0-ra? Vagy valami nagyon nagyra, mint 5000?"
 		},
 
 		// More boxes
-		{ message: "I'm going to make two boxes. Like this.", 
+		{ message: "Készítek még két dobozt. Igy.", 
 		  code: "var size = 80;\nc.fillRect(20, 20, size, size);\nc.fillRect(90, 90, size, size);\n",
 		  tutorImage: 6,
 		},
